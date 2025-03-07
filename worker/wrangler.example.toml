@@ -1,0 +1,11 @@
+//copy & paste this file as wrangler.toml in-place
+//update account_id
+//npm run wranger-dev or npm run wrangler-deploy
+//REMOVE THIS LINE AND ABOVE AFTER COPY AND PASTE
+
+name = "internet-speedtest-worker"
+main = "speedtest-worker.js"
+compatibility_date = "2025-03-06"
+
+account_id = {"enter cloudflare account id"}
+workers_dev = true
